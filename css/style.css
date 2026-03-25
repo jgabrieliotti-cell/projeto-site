@@ -3,3 +3,7 @@ body { font-family: Arial, Sans-serif; }
 h1 { text-align: center; }
 
 h2 { color: red; }
+
+.Lista-produtos li::marker {
+    content: "🐲 ";
+}
